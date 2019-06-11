@@ -1,0 +1,13 @@
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\bin\Debug\netcoreapp2.2\Catelog.Api.deps.json
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\bin\Debug\netcoreapp2.2\Catelog.Api.runtimeconfig.json
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\bin\Debug\netcoreapp2.2\Catelog.Api.runtimeconfig.dev.json
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\bin\Debug\netcoreapp2.2\Catelog.Api.dll
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\bin\Debug\netcoreapp2.2\Catelog.Api.pdb
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\obj\Debug\netcoreapp2.2\Catelog.Api.csproj.CoreCompileInputs.cache
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\obj\Debug\netcoreapp2.2\Catelog.Api.RazorAssemblyInfo.cache
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\obj\Debug\netcoreapp2.2\Catelog.Api.RazorAssemblyInfo.cs
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\obj\Debug\netcoreapp2.2\Catelog.Api.AssemblyInfoInputs.cache
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\obj\Debug\netcoreapp2.2\Catelog.Api.AssemblyInfo.cs
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\obj\Debug\netcoreapp2.2\Catelog.Api.RazorTargetAssemblyInfo.cache
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\obj\Debug\netcoreapp2.2\Catelog.Api.dll
+C:\Priyank\MyWork\Learning\Catelog.Api\Catelog.Api\obj\Debug\netcoreapp2.2\Catelog.Api.pdb
