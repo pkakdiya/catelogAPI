@@ -1,5 +1,6 @@
 ﻿using Catelog.Api.Models;
 using Catelog.Api.Repository;
+using Microsoft.AspNet.OData;
 using Microsoft.AspNetCore.Mvc;
 using System.Transactions;
 
@@ -17,6 +18,7 @@ namespace Catelog.Api.Controllers
         }
 
         // GET: api/Product
+        [EnableQuery]
         [HttpGet]
         public IActionResult Get()
         {

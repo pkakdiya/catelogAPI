@@ -15,6 +15,7 @@ namespace Catelog.Api
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            Console.Write("Application from Test Branch");
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

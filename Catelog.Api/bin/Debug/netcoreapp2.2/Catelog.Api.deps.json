@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "c81df68c3ba70f451b47f7cfc395b525b21a0ada"
+    "signature": "a3aa44b04c0427a5708a78ddc07e8f1da61a1cfc"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
       "Catelog.Api/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
+          "Microsoft.AspNetCore.OData": "7.1.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.0.2105168",
@@ -35,6 +36,22 @@
         },
         "compile": {
           "Catelog.Api.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.OData/7.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.OData.Core": "7.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.OData.dll": {
+            "assemblyVersion": "7.1.0.21120",
+            "fileVersion": "7.1.0.21120"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.OData.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -70,6 +87,43 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.CodeAnalysis.Workspaces.dll": {}
+        }
+      },
+      "Microsoft.OData.Core/7.5.0": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "7.5.0",
+          "Microsoft.Spatial": "7.5.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.OData.Core.dll": {
+            "assemblyVersion": "7.5.0.20627",
+            "fileVersion": "7.5.0.20627"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.OData.Core.dll": {}
+        }
+      },
+      "Microsoft.OData.Edm/7.5.0": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.OData.Edm.dll": {
+            "assemblyVersion": "7.5.0.20627",
+            "fileVersion": "7.5.0.20627"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.OData.Edm.dll": {}
+        }
+      },
+      "Microsoft.Spatial/7.5.0": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Spatial.dll": {
+            "assemblyVersion": "7.5.0.20627",
+            "fileVersion": "7.5.0.20627"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Spatial.dll": {}
         }
       },
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.0.2105168": {},
@@ -3546,6 +3600,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.AspNetCore.OData/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-klDVC2zGbHGXJHxGnWs7VYbeDNgTD2HJIuKpziSBg1K7itXep4Mh+g6JeVZckh5OAqJf+N2N2BXvsLlxN4p3XA==",
+      "path": "microsoft.aspnetcore.odata/7.1.0",
+      "hashPath": "microsoft.aspnetcore.odata.7.1.0.nupkg.sha512"
+    },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
       "serviceable": true,
@@ -3559,6 +3620,27 @@
       "sha512": "sha512-AqCiNju6UZy9Sd8HKzxGbpbZf+P8gWpojfvs9hIRfwstqFMZ6OJXf69EUvqJ5C4rWrcf08F7G8WII74KBEFImQ==",
       "path": "microsoft.codeanalysis.workspaces.common/2.8.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.2.8.0.nupkg.sha512"
+    },
+    "Microsoft.OData.Core/7.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ghfBHBOUbcz4AcPgxo8w2/qtI+GrosRwQfT9LTagAxyARLDk6tbsFbYTJ2IJF2TJ24BlQfj6wsi6JHprMdO7VQ==",
+      "path": "microsoft.odata.core/7.5.0",
+      "hashPath": "microsoft.odata.core.7.5.0.nupkg.sha512"
+    },
+    "Microsoft.OData.Edm/7.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jz/mqJdA80t628LXJYumsVO8sY1y8fnfCUU1+dN5UJRB1ICEc+z6ZtpGPG8KLUvREipGy/Va7EKslyJCAYe6QA==",
+      "path": "microsoft.odata.edm/7.5.0",
+      "hashPath": "microsoft.odata.edm.7.5.0.nupkg.sha512"
+    },
+    "Microsoft.Spatial/7.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zga9GToq8/m65bI1xyRDxPgt3xA3O0lTMwBo/seCknpKSU16UJJ2k8AQ1xP66yUYonoBPX4GlwQow8avLbocMw==",
+      "path": "microsoft.spatial/7.5.0",
+      "hashPath": "microsoft.spatial.7.5.0.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.0.2105168": {
       "type": "package",
