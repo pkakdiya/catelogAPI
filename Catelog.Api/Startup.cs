@@ -1,5 +1,6 @@
 ﻿using Catelog.Api.DBContexts;
 using Catelog.Api.Repository;
+using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +25,7 @@ namespace Catelog.Api
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<ProductContext>(o => o.UseSqlServer(Configuration.GetConnectionString("ProductDB")));
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddOData();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,7 +42,10 @@ namespace Catelog.Api
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseMvc(routeBuilder => {
+                routeBuilder.EnableDependencyInjection();
+                routeBuilder.Expand().Select().OrderBy().Filter();
+            });
         }
     }
 }
